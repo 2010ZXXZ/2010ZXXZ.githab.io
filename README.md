@@ -1,1 +1,89 @@
-# 2010ZXXZ.githab.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>shop</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<header class="header" id="header">
+		<nav class="nav conteiner">
+			<a href="#" class="nav_logo">
+				<i class='bx bxs-joystick'></i>sneakers
+			</a>
+			<div class="nav_menu">
+				<ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="https://totara.help/15/docs/featured-links-block" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.inkeri.ru/rep/books/item.php?id=6" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.pngwing.com/ru" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="https://www.nike.com/w/mens-shoes-nik1zy7ok" class="nav__link">New</a>
+                        </li>
+                    </ul>
+			</div>
+			<div class="nav_btns">
+				 <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+			</div>
+		</nav>
+	</header>
+	<main class="main">
+		<section class="home" id="home">
+			<div class="home__container container grid">
+				<div class="home__img-big">
+					<img src="img/2.jpg" alt="">
+					<div class="ggstand">
+						<img src="img/pngwing.com (1).png" alt="">
+						<p><div class="home__btns">
+						<a href="#" class="button button-small">Buy</a>
+						<a href="https://www.nike.com/ru/"><button class="button__home__button">купить кроссовки найк</button></a>
+					</div></p>
+					</div class="qpwotrut">
+						<img src="img/pngwing.com.png" alt="">
+												<p><div class="home__btns">
+						<a href="#" class="button button-small">Buy</a>
+						
+						<a href="https://www.nike.com/ru/"><button class="button__home__button">купить кроссовки найк</button></a>
+						<img src="img/1.png" alt="">
+					</div></p>
+					</div>
+				</div>
+				<video controls> 
+	            <source src="video/Кроссовки_Nike_Air_Max_1_по_технологии_Ultra_Flyknit___Презентация_модели_Найк_Аир_Макс.mp4" type="">
+	            </video>
+				<div class="home__social">
+					<a href="https://www.facebook.com/" target="_blank" class="home__social-link">Facebook</a>
+					<a href="https://t.me/instagram" target="_blank" class="home__social-link">Instagram</a>
+					<a href="https://web.telegram.org/z/" target="_blank" class="home__social-link">Telegram</a>
+				</div>
+				<div class="home__data">
+					<h1 class="home__title">nike <br> top</h1>
+					<p class="home__description">
+						Кроссовки Nike
+					</p>
+					<span class="home__price">300$</span>
+					<div class="home__btns">
+						<a href="#" class="button button-small">Buy</a>
+						<button class="button__home__button">купить кроссовки найк</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
